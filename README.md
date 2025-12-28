@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+**InternTrack**
 
-## Project info
+Smart Internship & Job Application Tracking Platform
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+InternTrack is a student-focused web application that helps users track, analyze, and improve their internship and job application journey using structured tracking, analytics, reminders, and smart suggestions.
 
-## How can I edit this code?
+**Project Overview**
 
-There are several ways of editing your application.
+Applying to internships and jobs is chaotic — spreadsheets, notes, reminders, follow-ups, and no visibility into what’s actually working.
 
-**Use Lovable**
+InternTrack solves this problem by providing:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+A centralized dashboard for all applications
 
-Changes made via Lovable will be committed automatically to this repo.
+Automatic analytics on response and success rates
 
-**Use your preferred IDE**
+Deadline reminders and follow-up suggestions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Actionable insights to help students apply smarter, not harder
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Key Features**
+**Application Management**
 
-Follow these steps:
+Add, edit, and track internship/job applications
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Track application status (Applied, OA, Interview, Offer, Accepted, Rejected)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Attach notes, deadlines, and platforms (LinkedIn, Indeed, etc.)
 
-# Step 3: Install the necessary dependencies.
-npm i
+**Analytics & Insights**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Response rate and success rate analysis
+
+Conversion funnel (Applied → Offer → Accepted)
+
+Average response time tracking
+
+Platform and role performance insights
+
+**Smart Reminders & Notifications**
+
+Deadline reminders
+
+Follow-up alerts for inactive applications
+
+Weekly progress summaries
+
+Interview and status update notifications
+
+**Smart Suggestions**
+
+Where to apply more based on past success
+
+When to follow up on stalled applications
+
+Role and platform-based recommendations
+
+One-click actions (mark done, snooze, dismiss, add notes)
+
+**Why InternTrack Matters**
+
+InternTrack helps students:
+
+Understand what’s working and what’s not
+
+Avoid missing deadlines and follow-ups
+
+Make data-driven career decisions
+
+Reduce stress during the application process
+
+Instead of guessing, students learn from their own data.
+
+**Tech Stack**
+
+This project is built using:
+
+React (Frontend)
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui
+
+Supabase (Database, Authentication, Storage)
+
+Chart-based analytics (for funnel & performance visualization)
+**Getting Started (Local Setup)**
+Prerequisites
+
+Node.js (v18 or later)
+
+npm or yarn
+
+Installation:
+
+# Clone the repository
+git clone <YOUR_GIT_REPOSITORY_URL>
+
+# Navigate to the project folder
+cd interntrack
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
+The application will run locally at:
+http://localhost:5173
 
-**Edit a file directly in GitHub**
+**Environment Variables**
+Create a .env file and configure required keys (example):
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
